@@ -1,0 +1,118 @@
+.courses h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+  padding-top: var(--spacing-large);
+}
+
+.courses .main-paragraph {
+  margin: 0 var(--spacing-small) var(--spacing-large);
+  text-align: center;
+}
+
+.courses .container-grid {
+  padding: var(--spacing-large) var(--spacing-small);
+  margin-left: 0 var(--spacing-small);
+}
+
+.courses .courses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses .course-wrapper {
+  width: calc(100% / 3);
+  padding: 0 var(--spacing-small);
+}
+
+.courses .course {
+  width: 100%;
+  padding: var(--spacing-tiny);
+  margin-bottom: var(--spacing-medium);
+
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px var(--border-color);
+}
+
+.courses .course-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: var(--spacing-medium);
+  border-radius: 8px;
+}
+
+.courses h3 {
+  color: var(--text-primary);
+}
+
+.courses .microsoft-logo {
+  width: 80px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.courses span,
+courses .certification {
+  color: #666;
+  font-size: var(--fs-medium);
+}
+
+.courses .material-symbols-outlined {
+  vertical-align: middle;
+}
+
+.courses h3,
+.courses .certification,
+.courses .details,
+.courses a {
+  margin-bottom: var(--spacing-medium);
+}
+
+.courses .content {
+  padding: 0 var(--spacing-small);
+}
+
+.courses .microsoft-logo,
+.courses .duration-months,
+.courses .duration-hours {
+  margin-left: var(--spacing-small);
+}
+
+.courses a {
+  background-color: var(--button-color);
+  color: var(--text-white);
+
+  font-size: var(--fs-medium);
+  text-align: center;
+
+  width: 100px;
+
+  padding: var(--spacing-tiny);
+  border-radius: 5px;
+
+  border: 2px solid var(--button-color);
+}
+
+.courses a:hover {
+  background-color: transparent;
+  color: var(--button-color);
+  border: 2px solid var(--button-color);
+}
+
+/* -------- media -------- */
+
+@media (max-width: 992px) {
+  .courses .course-wrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses .course-wrapper {
+    width: 100%;
+  }
+
+  .welcome h1 {
+    font-size: var(--fs-xl);
+  }
+}
