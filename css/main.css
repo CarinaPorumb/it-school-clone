@@ -6,7 +6,7 @@
   --text-light: #eaeaea;
   --text-white: #ffffff;
 
-  --bg-primary: #141e4c;
+  --bg-primary: #1a1e30;
   --bg-secondary: #dfedf5;
   --bg-dark: #101d42;
   --bg-light: #ffffff;
@@ -200,7 +200,7 @@ nav .submenu {
   width: 10rem;
   padding: var(--spacing-tiny) 0;
 
-  background-color: var(--bg-dark);
+  background-color: var(--bg-primary);
 
   z-index: 3;
 }
@@ -277,13 +277,13 @@ nav .about-us:hover .submenu {
     top: calc(var(--mobile-logo-height) + 2 * var(--spacing-medium));
     left: 0;
 
-    background-color: var(--bg-dark);
+    background-color: var(--bg-primary);
   }
 }
 
 /* Footer */
 footer {
-  background-color: var(--bg-dark);
+  background-color: var(--bg-primary);
 }
 
 footer p {
@@ -296,7 +296,8 @@ footer p {
 }
 
 .welcome {
-  background-color: var(--bg-primary);
+  background-image: url("../img/background-big.6f4ab9bf.svg");
+  background-size: cover;
   height: 50vh;
   display: flex;
   justify-content: center;
